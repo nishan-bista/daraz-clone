@@ -12,6 +12,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="loading.css" />
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -67,7 +68,7 @@
           <a href="#">Sign Up</a>
         </div>
         <!-- language section -->
-        <div class="language-section ">
+        <div class="language-section">
           <div class="global-icon">
             <i class="fa-solid fa-globe"></i>
           </div>
@@ -75,17 +76,21 @@
           <div class="lang-options">
             <select name="" id="">
               <option>EN</option>
-              <option style="color: black;">NE</option>
+              <option style="color: black">NE</option>
             </select>
           </div>
         </div>
 
         <div class="cart-icon-body">
-            <div class="cart-icon">
-                <i class="fa-solid fa-cart-shopping"></i>
-            </div>
+          <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
         </div>
       </div>
     </header>
+    
+    <div class="container">
+      <div id="loader" class="loading-screen"></div>
+    </div>
   </body>
 </html>

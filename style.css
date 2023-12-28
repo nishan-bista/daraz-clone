@@ -28,11 +28,16 @@
   align-items: center;
   justify-content: space-between;
 }
-/* @media (max-width:1000px) {
+@media (max-width:1000px) {
   .first-panel-container div{
     padding-right:10%;
   }
-} */
+}
+@media (max-width:1500px ) {
+  .first-panel-container div{
+    padding-right:10%;
+  }
+}
 
 /* Navigation bar second panel */
 

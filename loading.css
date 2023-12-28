@@ -1,0 +1,27 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .loading-screen {
+    height: 100px;
+    width: 100px;
+    border-top: 10px dotted #6e8387;
+    border-left: 10px double #6e8387;
+    border-radius: 50%;
+  
+    /* animation inserting */
+    animation: loader 1.5s linear 0s infinite;
+    
+  }
+  @keyframes loader {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
