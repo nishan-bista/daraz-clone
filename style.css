@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  text-decoration: none;
+}
+.nav-first-panel {
+  width: 100vw;
+  height: 1.6rem;
+  text-wrap: nowrap;
+  background-color: #f85606;
+}
+.first-container-body a {
+  color: white;
+}
+.first-container-body a:hover {
+  color: #d4d4d4;
+}
+.first-container-body {
+  width: 60%;
+  padding-left: 8%;
+}
+.first-panel-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* @media (max-width:1000px) {
+  .first-panel-container div{
+    padding-right:10%;
+  }
+} */
+
+/* Navigation bar second panel */
+
+.nav-second-panel {
+  width: 100vw;
+  height: 5rem;
+  background-color: #f85606;
+  display: flex;
+  align-items: center;
+}
+.logo-body {
+  margin-left: 8%;
+  height: 80px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  background-image: url(images/darazlogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+/* Search Bar */
+.SearchBar {
+  width: 800px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.search-box {
+  height: 100%;
+  width: 100%;
+}
+.search-box input {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-size: 1.2rem;
+  padding-left: 1.5rem;
+}
+/* Search Icon */
+
+.search-icon-out-body {
+  margin-right: 1rem;
+  background-color: white;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+  height: 3.125rem;
+  width: 8rem;
+}
+.search-icon-body {
+  height: 2.5rem;
+  width: 5rem;
+  padding-right: 1rem;
+}
+.search-icon {
+  height: 100%;
+  width: 100%;
+
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  color: #f75709;
+  background-color: #ffe1d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* login section */
+.register:hover {
+  background-color: #6156564d;
+}
+
+.register {
+  border-radius: 0.8rem;
+
+  height: 2.8rem;
+  width: 5.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-section i {
+  color: white;
+  font-size: 1.5rem;
+}
+.login-section a {
+  color: white;
+  padding-left: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+/* line */
+.line-between {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: white;
+  height: 1rem;
+  width: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+/* sign up section  */
+.signup-section a {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+/* Language section */
+.language-section:hover{
+  background-color:#6156564d;
+}
+.language-section{
+  border-radius: 0.8rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+ justify-content: space-evenly;
+  height: 3rem;
+  width:7rem;
+}
+.language-section i{
+  color: white;
+  font-size: 1.8rem;
+}
+.lang-options select{
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+/* cart icon */
+.cart-icon-body:hover{
+  background-color: #6156564d;
+}
+
+.cart-icon-body{
+  border-radius: 0.8rem;
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 4rem;
+
+}
+.cart-icon{
+  color: white;
+  font-size: 1.5rem;
+
+}
+
